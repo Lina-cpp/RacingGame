@@ -3,6 +3,17 @@
 	"EngineAssociation": "{79F8C3A8-49F8-3523-4014-55952CC51AD6}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "RacingGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"ChaosVehicles",
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ChaosVehiclesPlugin",
@@ -17,6 +28,15 @@
 			"Enabled": true,
 			"TargetAllowList": [
 				"Editor"
+			]
+		},
+		{
+			"Name": "Bridge",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Mac",
+				"Linux"
 			]
 		}
 	]

@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch RacingGame (Debug)",
+			"request": "launch",
+			"program": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "RacingGame Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "F:\\UE5\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE5\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "F:\\UE5\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch RacingGame (DebugGame)",
+			"request": "launch",
+			"program": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "RacingGame Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "F:\\UE5\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE5\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "F:\\UE5\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch RacingGame (Development)",
+			"request": "launch",
+			"program": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "RacingGame Win64 Development Build",
+			"args": [
+			],
+			"cwd": "F:\\UE5\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE5\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "F:\\UE5\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch RacingGame (Test)",
+			"request": "launch",
+			"program": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "RacingGame Win64 Test Build",
+			"args": [
+			],
+			"cwd": "F:\\UE5\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE5\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "F:\\UE5\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch RacingGame (Shipping)",
+			"request": "launch",
+			"program": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "RacingGame Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "F:\\UE5\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE5\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "F:\\UE5\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch RacingGameEditor (Debug)",
+			"request": "launch",
+			"program": "F:\\UE5\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "RacingGameEditor Win64 Debug Build",
+			"args": [
+				"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\RacingGame.uproject"
+			],
+			"cwd": "F:\\UE5\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE5\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "F:\\UE5\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch RacingGameEditor (DebugGame)",
+			"request": "launch",
+			"program": "F:\\UE5\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "RacingGameEditor Win64 DebugGame Build",
+			"args": [
+				"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\RacingGame.uproject"
+			],
+			"cwd": "F:\\UE5\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE5\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "F:\\UE5\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch RacingGameEditor (Development)",
+			"request": "launch",
+			"program": "F:\\UE5\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "RacingGameEditor Win64 Development Build",
+			"args": [
+				"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\RacingGame.uproject"
+			],
+			"cwd": "F:\\UE5\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "F:\\UE5\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "F:\\UE5\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "F:\\UE5\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\RacingGame.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "F:\\UE5\\UE_5.0"
+		}
+	]
+}

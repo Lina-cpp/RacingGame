@@ -1,0 +1,37 @@
+[
+	{
+		"file": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Source\\RacingGame\\HealthComponent.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\.vscode\\compileCommands_RacingGame\\RacingGame.214.rsp\"",
+		"directory": "F:\\UE5\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Source\\RacingGame\\HealthComponent.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\.vscode\\compileCommands_RacingGame\\RacingGame.214.rsp\"",
+		"directory": "F:\\UE5\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Source\\RacingGame\\PickUp.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\.vscode\\compileCommands_RacingGame\\RacingGame.214.rsp\"",
+		"directory": "F:\\UE5\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Source\\RacingGame\\PickUp.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\.vscode\\compileCommands_RacingGame\\RacingGame.214.rsp\"",
+		"directory": "F:\\UE5\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Source\\RacingGame\\RacingGame.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\.vscode\\compileCommands_RacingGame\\RacingGame.214.rsp\"",
+		"directory": "F:\\UE5\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Source\\RacingGame\\RacingGame.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\.vscode\\compileCommands_RacingGame\\RacingGame.214.rsp\"",
+		"directory": "F:\\UE5\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\Source\\RacingGame\\RacingGame.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.32.31326\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\Janek\\Documents\\UE5 - Projects\\RacingGame\\.vscode\\compileCommands_RacingGame\\RacingGame.214.rsp\"",
+		"directory": "F:\\UE5\\UE_5.0\\Engine\\Source"
+	}
+]
