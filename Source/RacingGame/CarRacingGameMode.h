@@ -14,4 +14,11 @@ class RACINGGAME_API ACarRacingGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 	
+public:
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void StartGame();
+
+	UFUNCTION(BlueprintImplementableEvent)
+	void GameOver(bool bWonGame);
 };

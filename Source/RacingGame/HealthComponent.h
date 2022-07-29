@@ -24,7 +24,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")
 	int MaxHealth = 3;	//our max health
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")
-	int Health = 0; 	//Health that will change
+	int Health; 	//Health that will change
 
 
 	UFUNCTION(BlueprintCallable)
