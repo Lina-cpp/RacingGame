@@ -20,10 +20,44 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 
-private:
-	UPROPERTY(EditAnywhere)
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")
 	int MaxHealth = 3;	//our max health
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")
 	int Health = 0; 	//Health that will change
+
+
+	UFUNCTION(BlueprintCallable)
+    void setMaxHealth(int CarMaxHealth) 
+	{
+      MaxHealth = CarMaxHealth;
+    }
+
+    // Getter
+	UFUNCTION(BlueprintCallable)
+    int getMaxHealth() 
+	{
+      return MaxHealth;
+    }
+
+
+
+
+
+//Health setter and getter
+    // Setter
+	UFUNCTION(BlueprintCallable)
+    void setHealth(int CurrentHealth) 
+	{
+      Health = CurrentHealth;
+    }
+
+    // Getter
+	UFUNCTION(BlueprintCallable)
+    int getHealth() 
+	{
+      return Health;
+    }
 
 public:	
 	// Called every frame
