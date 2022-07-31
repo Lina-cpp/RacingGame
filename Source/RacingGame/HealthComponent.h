@@ -22,23 +22,7 @@ protected:
 
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")
-	int MaxHealth = 3;	//our max health
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category="Health")
 	int Health; 	//Health that will change
-
-
-	UFUNCTION(BlueprintCallable)
-    void setMaxHealth(int CarMaxHealth) 
-	{
-      MaxHealth = CarMaxHealth;
-    }
-
-    // Getter
-	UFUNCTION(BlueprintCallable)
-    int getMaxHealth() 
-	{
-      return MaxHealth;
-    }
 
 
 

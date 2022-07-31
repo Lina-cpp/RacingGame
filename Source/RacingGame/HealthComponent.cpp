@@ -18,8 +18,6 @@ UHealthComponent::UHealthComponent()
 void UHealthComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
-	Health = MaxHealth; //setting max health
 	
 }
 

@@ -30,7 +30,7 @@ public:
 
 	UPROPERTY(EditAnywhere)
 	USceneComponent *PickupRoot;	  //root
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	UStaticMeshComponent *PickupMesh; //pickup mesh
 	UPROPERTY(EditAnywhere)
 	UShapeComponent *PickupBox;		  //collision box
