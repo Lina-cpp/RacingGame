@@ -19,14 +19,14 @@ APickUp::APickUp()
 
 	//Pickup Mesh
 	PickupMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Pickup Mesh"));
-	PickupMesh->AttachToComponent(PickupRoot, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
+	PickupMesh->SetupAttachment(RootComponent);
 
 	//pickup box
 	PickupBox = CreateDefaultSubobject<UBoxComponent>(TEXT("Pickup box"));
 	PickupBox->SetWorldScale3D(FVector(1.0f, 1.0f, 1.0f));
 	PickupBox->SetGenerateOverlapEvents(true);
 	PickupBox->OnComponentBeginOverlap.AddDynamic(this, &APickUp::OnCarEnterBox);
-	PickupBox->AttachToComponent(PickupRoot, FAttachmentTransformRules::SnapToTargetNotIncludingScale);
+	PickupBox->SetupAttachment(RootComponent);
 
 }
 
